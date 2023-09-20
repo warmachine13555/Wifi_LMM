@@ -1,0 +1,116 @@
+/* Basic styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url("picture.jpg");
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* CSS styles for the "Styled Box" */
+.styled-box {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #023e8a;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.fonts {
+    font-size: 20px;
+    font-weight: bold;
+    color: #020202;
+    text-align: center;
+}
+
+.font1 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #020202;
+    text-align: center;
+}
+
+.font2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #020202;
+    text-align: center;
+}
+
+.font3 {
+    font-family: Courier New, Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: #020202;
+    text-align: center;
+}
+
+.Text {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #020202;
+    text-align: center;
+}
+
+.text1 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #020202;
+    text-align: left;
+    text-decoration-line: overline;
+}
+
+.text2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #020202;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.text3 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #020202;
+    text-align: right;
+    text-decoration-line: line-through;
+}

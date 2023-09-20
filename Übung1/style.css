@@ -1,0 +1,56 @@
+.debug {
+    background-color: red !important;
+}
+
+/* Stern formatiert alle HTML-Befehle (Tags) */
+/* Alle Abstände auf 0 Pixel setzen */
+* {
+    border:0px;
+    outline:0px;
+    margin:0px;
+    padding:0px;
+}
+
+.header {
+    heigth: 100px;
+    background-color: #262626;
+}
+
+.brand {
+    height: 100px;
+    widht: 1200px;
+    background-color: #404040;
+    margin: 0 auto; /* zentriert den Container */
+}
+
+.content {
+    min-height: 700px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cs-wrapper {
+    display: flex; /* stellt die container nebeneinander */
+}
+
+.content-spalte {
+    width: 350px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f2f2f2;
+}
+
+.footer {
+    height: 200px;
+    background-color: #262626;
+}
+
+.footernav {
+    height: 200px;
+    background-color: #404040;
+    width: 1200px;
+    margin: 0 auto;
+}
