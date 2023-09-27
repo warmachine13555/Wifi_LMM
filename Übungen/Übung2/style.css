@@ -1,0 +1,38 @@
+/* Meine CSS-Formate */
+
+.headernav {
+    width: 1000px;
+    height: 80px;
+    background-color: lightblue;
+    margin: 0 auto 10px;
+}
+
+.navwrapper {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+.mainmenu {
+    font-family: sans-serif;
+    list-style-type: none;
+    display: flex;
+    line-height: 40px;
+    width: 100%;
+}
+
+.mainmenu li {
+    margin-right: 25px;
+    flex: auto;
+}
+
+.mainmenu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainmenu li a:hover {
+    color: black;
+    border-bottom: solid 2px red;
+}

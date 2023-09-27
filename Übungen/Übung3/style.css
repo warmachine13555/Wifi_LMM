@@ -1,0 +1,63 @@
+/* Meine CSS-Formate */
+
+.headernav {
+    width: 1000px;
+    height: 80px;
+    background-color: lightblue;
+    margin: 0 auto 10px;
+}
+
+.navwrapper {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #9eed00;
+}
+
+.mainmenu {
+    font-family: sans-serif;
+    list-style-type: none;
+    display: flex;
+    line-height: 40px;
+    width: 100%;
+}
+
+.mainmenu li {
+    margin-right: 25px;
+    flex: auto;
+}
+
+.mainmenu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainmenu li a:hover {
+    color: black;
+    border-bottom: solid 3px red;
+}
+.slider {
+    width: 1000px;
+    heigt: 400px;
+    background-color: #cccccc;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+.contentlinks {
+    width: 680px;
+}
+.contentrechts {
+    width: 320px;
+    padding: 20px;
+    padding-right: 0px;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #9eed00;
+.bg-body-tertiary {
+    background-color: #9eed00;
+}
