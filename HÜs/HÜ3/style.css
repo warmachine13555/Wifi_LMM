@@ -1,9 +1,12 @@
 /* Meine CSS-Formate */
 
+html, body {
+    background-color: #111927;
+}
+
 .headernav {
     width: 1000px;
     height: 80px;
-    background-color: lightblue;
     margin: 0 auto 10px;
 }
 
@@ -11,7 +14,7 @@
     width: 1000px;
     height: 40px;
     margin: 0 auto;
-    background-color: #9eed00;
+    align-items: center;
 }
 
 .mainmenu {
@@ -36,27 +39,38 @@
     color: black;
     border-bottom: solid 3px red;
 }
+
 .slider {
     width: 1000px;
-    height: 400px;
-    background-color: #cccccc;
+    height: 600px;
+    background-color: #f6f1f1;
     margin: 15px auto 0;
 }
+
 .content {
     width: 1000px;
     margin: 0 auto;
     display: flex;
 }
+
 .contentlinks {
     width: 680px;
 }
+
 .contentrechts {
-    width: 320px;
+    width: 400px;
     padding: 20px 0 20px 20px;
 }
+
 .accordion-button:not(.collapsed) {
     background-color: #9eed00;
 }
+
 .bg-body-tertiary {
     background-color: #9eed00;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: var(--bs-nav-pills-link-active-bg);
 }
