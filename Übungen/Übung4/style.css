@@ -1,0 +1,117 @@
+/* Meine CSS-Formate */
+
+.headernav {
+    width: 1000px;
+    height: 80px;
+    background-color: lightblue;
+    margin: 0 auto 10px;
+}
+
+.navwrapper {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #9eed00;
+}
+
+.mainmenu {
+    font-family: sans-serif;
+    list-style-type: none;
+    display: flex;
+    line-height: 40px;
+    width: 100%;
+}
+
+.mainmenu li {
+    margin-right: 25px;
+    flex: auto;
+}
+
+.mainmenu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainmenu li a:hover {
+    color: black;
+    border-bottom: solid 3px red;
+}
+
+.slider {
+    width: 1000px;
+    height: 400px;
+    background-color: #cccccc;
+    margin: 15px auto 0;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contentlinks {
+    width: 680px;
+}
+
+.contentrechts {
+    width: 320px;
+    padding: 20px 0 20px 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #9eed00;
+}
+
+.bg-body-tertiary {
+    background-color: #9eed00;
+}
+
+.mynav ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    line-height: 80px;
+}
+
+.mynav ul li {
+    flex: auto;
+}
+
+.mynav-mobil {
+    list-style-type: none;
+    display: none;
+    width: 100%;
+    line-height: 80px;
+}
+
+
+@media (max-width: 576px) {
+    .mycol2, .mycol4 {
+        display: none;
+    }
+    .accordion {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .accordion {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav {
+        display: none;
+    }
+    .slider {
+        display: none;
+    }
+    .mynav {
+        display: none;
+    }
+    .mynav-mobil {
+        display: block;
+    }
+}
