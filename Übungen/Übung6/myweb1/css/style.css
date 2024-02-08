@@ -1,0 +1,53 @@
+.mymenu {
+    background-color: #000;
+    color: #fff;
+    height: 70px;
+}
+
+.mynav {
+    font-size: 24px;
+    display: flex;
+    list-style: none;
+}
+
+.mynav li {
+    margin: auto;
+    line-height: 70px;
+}
+
+.mybrand {
+    font-weight: bold;
+}
+
+.mynav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mynav a:hover {
+    border-bottom: 6px solid #fff;
+    padding-bottom: 13px;
+}
+
+.mymobilemenu {
+    display: none;
+}
+
+@media (max-width: 900px) {
+
+    .mymobilemenu {
+        display: flex;
+    }
+
+    .mymobilemenu li a {
+        font-size: 35px;
+    }
+
+    .mymobilemenu li a:hover {
+        border: none;
+    }
+
+    .mydesktopmenu {
+        display: none;
+    }
+}

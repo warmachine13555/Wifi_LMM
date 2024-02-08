@@ -1,0 +1,79 @@
+.mymenu {
+	background-color: #000;
+	color: #fff;
+	height: 70px;
+}
+
+.mynav {
+	font-size: 24px;
+	display: flex;
+	list-style-type: none;
+}
+
+.mynav li {
+	margin: auto;
+	line-height: 70px;
+}
+
+.mybrand {
+	font-weight: bold;
+}
+
+.mynav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.mynav a:hover {
+	border-bottom:6px solid #fff;
+	padding-bottom:13px;
+}
+
+.mymobilemenu {
+	display: none;
+}
+
+.mymmopen {
+	display: none;
+	/*position: absolute;
+	left:0px;*/
+	/*width:400px;
+	height: 1000px;*/
+	background-color: #ccc;
+	color: #000;
+	font-size: 25px;
+	margin: -12px;
+	margin-bottom:15px;
+  	padding: 10px;
+  	padding-top: 18px;
+}
+
+
+.mymmopen ul {
+	list-style-type: none;
+
+}
+
+.fcb {
+	color: #000 !important;
+}
+
+@media (max-width: 900px) {
+
+	.mymobilemenu {
+		display: flex;
+	}
+
+	.mymobilemenu li a{
+		font-size:35px;
+	}
+
+	.mymobilemenu li a:hover{
+		border:none;
+	}
+
+	.mydesktopmenu {
+		display: none;
+	}
+
+}
